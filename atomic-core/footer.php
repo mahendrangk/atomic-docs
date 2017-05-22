@@ -1,5 +1,6 @@
 <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
-<script>window.jQuery || document.write('<script src="atomic-core/vendor/jquery.js"><\/script>')</script>
+<!--<script>window.jQuery || document.write('<script src="atomic-core/vendor/jquery.js"><\/script>')</script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="atomic-core/js/src-min/ace.js"></script>
 
 
@@ -203,14 +204,14 @@ if (file_exists($filename)) {
 
 <?php 
   //Uncomment the following include to enable client mode.
-  //include "clientmode.php" 
+  //include "clientmode.php"
 ?>
 
 
 
 
 
-
+<script src="atomic-core/vendor/newSort/jquery.fn.sortable.js"></script>
 <script src="atomic-core/js/min/compiled.min.js"></script>
 
 <script>
